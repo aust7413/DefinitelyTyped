@@ -5687,6 +5687,7 @@ declare module dojo {
              * @param sources One of more objects from which to draw all properties to copy into dest. sources are processedleft-to-right and if more than one of these objects contain the same property name, the right-mostvalue "wins".             
              */
             mixin(dest: Object, sources: Object[]): Object;
+            mixin(dest: Object, sources: Object): Object;
             /**
              * similar to hitch() except that the scope object is left to be
              * whatever the execution context eventually becomes.
